@@ -5,7 +5,7 @@
 !### Description
 !  Numeric kind definitions for BSpline-Fortran.
 
-    module bspline_kinds_module
+    module bspline_kinds_module, only: real64
 
     use,intrinsic :: iso_fortran_env
 
